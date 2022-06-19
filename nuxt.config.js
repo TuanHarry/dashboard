@@ -1,4 +1,19 @@
 export default {
+  ssr: false,
+  // Target: https://go.nuxtjs.dev/config-target
+  target: 'static',
+
+  // set global window.mission_map
+  globalName: 'dashboard',
+
+
+  // Config port 
+  server: {
+    host: '0.0.0.0',
+    port: '4000',
+  },
+
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'dashboard',
@@ -31,6 +46,8 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    // https://github.com/nuxt-community/svg-module
+    '@nuxtjs/svg',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
