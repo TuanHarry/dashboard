@@ -1,6 +1,6 @@
 <template>
 	<aside
-		class="scrollbar h-screen overflow-y-auto text-white top-0 lg:absolute bg-primary lg:block lg:z-40"
+		class="scrollbar h-screen overflow-y-auto text-white top-0 lg:absolute bg-opacity-30 backdrop-filter backdrop-blur-3xl lg:block lg:z-40"
 		:class="[
       style[mobilePosition],
       state.open
