@@ -1,11 +1,11 @@
 <template>
 	<aside
-		class="scrollbar h-screen overflow-y-auto text-white top-0 lg:absolute bg-opacity-30 backdrop-filter backdrop-blur-3xl lg:block lg:z-40"
+		class="scrollbar h-screen overflow-y-auto text-white top-0 lg:absolute bg-opacity-30 backdrop-filter backdrop-blur-lg lg:block lg:z-40"
 		:class="[
       style[mobilePosition],
       state.open
         ? 'absolute duration-500 ease-in transition-all w-8/12 z-40 sm:w-5/12 md:w-64'
-        : 'duration-700 ease-out hidden transition-all lg:w-24',
+        : 'duration-500 ease-out  transition-all  hidden lg:w-24',
     ]"
 	>
 		<div class="pb-32 lg:pb-12">
