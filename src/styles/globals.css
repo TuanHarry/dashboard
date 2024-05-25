@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Bạn có thể thêm các style tùy chỉnh tại đây */
+body {
+    @apply bg-gray-100 text-gray-900;
+}
+
+/* Thêm các class tùy chỉnh */
+.custom-button {
+    @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+    transition: background-color 0.3s;
+}
+
+.custom-button:hover {
+    @apply bg-blue-700;
+}
