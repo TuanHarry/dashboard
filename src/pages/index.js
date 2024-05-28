@@ -1,13 +1,5 @@
-import Header from '../components/App/Header';
-import Hero from '../components/Hero';
-import Features from '../components/Features';
+import HomePage from '../modules/home'; // Import từ index.js trong thư mục home
 
 export default function Home() {
-  return (
-    <>
-      <Header />
-      <Hero />
-      <Features />
-    </>
-  );
+  return <HomePage />;
 }
