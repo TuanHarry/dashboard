@@ -1,3 +1,6 @@
 {
-  "recommendations": ["compulim.compulim-vscode-closetag"]
+  "recommendations": [
+    "compulim.compulim-vscode-closetag",
+    "formulahendry.auto-close-tag"
+  ]
 }
