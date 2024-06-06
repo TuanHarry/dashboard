@@ -26,8 +26,6 @@ const HomePage = () => {
       <SummaryProfile profile={profile} />
       <AboutExp />
       <LastProject/>
-      <Hero />
-      <Features />
     </>
   );
 }

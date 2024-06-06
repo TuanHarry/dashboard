@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { FaInstagramSquare, FaFacebook, FaLinkedin } from 'react-icons/fa';
 import { AiFillTikTok } from 'react-icons/ai';
+import GradientButton from '../../../components/GradientButton'
 
 const SummaryProfile = ({ profile }) => {
     const {
@@ -60,9 +61,13 @@ const SummaryProfile = ({ profile }) => {
                         <button className="flex items-center justify-center h-10 rounded-full border border-gray-700 px-5 ">
                             <span className="text-base font-medium text-gray-700">Say hello →</span>
                         </button>
+
                         <button className="flex items-center justify-center h-10 rounded-full border border-gray-700 px-5 ">
                             <span className="text-base font-medium text-gray-700">My Profile</span>
                         </button>
+
+                        <GradientButton>Click Me</GradientButton>
+
                     </div>
                 </div>
             </div>

@@ -1,3 +1,4 @@
+import NavLink from "./NavLink";
 const Header = () => {
   return (
     <header className="bg-white p-6 xl:p-8">
@@ -6,21 +7,10 @@ const Header = () => {
           Tuan <span className="ml-1 text-gray-600">Tran</span>
         </span>
         <nav className="hidden lg:flex">
-          <a href="#home" className="mx-2">
-            Home
-          </a>
-          <a href="#about" className="mx-2">
-            About
-          </a>
-          <a href="#works" className="mx-2">
-            Works
-          </a>
-          <a href="#services" className="mx-2">
-            Services
-          </a>
-          <a href="#contact" className="mx-2">
-            Contact
-          </a>
+          <NavLink href="#home">Home</NavLink>
+          <NavLink href="#about">About</NavLink>
+          <NavLink href="#services">Services</NavLink>
+          <NavLink href="#contact">Contact</NavLink>
         </nav>
         <button className="border border-gray-900 rounded-full h-10 flex items-center justify-center px-5">
           <span className="text-base font-medium text-gray-900">
